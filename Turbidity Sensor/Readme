@@ -1,0 +1,54 @@
+What is Turbidity in Liquid?
+
+Turbidity is the degree or level of cloudiness or haziness of a liquid. This happens due to the presence of large numbers of invisible particles 
+(with the naked eye) similar to white smoke in the air. When light passes through liquids, light waves get scattered Due to the presence of these 
+tiny particles. The turbidity of a liquid is directly proportional to the free suspended particles that is if the number of particles increases 
+turbidity will also increase as shown in fig(turbidity in liquid).
+
+How to Measure Turbidity? 
+
+Turbidity happens due to the scattering of light waves, in order to measure the turbidity, we should measure the scattering of light. Turbidity is usually measured in 
+nephelometric turbidity units (NTU) or Jackson turbidity units (JTLJ), depending on the method used for measurement. The two units are roughly equal.The turbidity sensor 
+has two parts, transmitter and Receiver. The transmitter consists of a light source typically an led and a driver circuit. In the receiver end, there is a light detector 
+like a photodiode or an LDR. We place the solution in between the transmitter and receiver as shown in fig(Turbidity sensor working).
+
+Overview of Turbidity Sensor
+
+Turbidity sensor module comes with 3 parts. A waterproof lead, a driver circuit, and a connecting wire. The testing probe consists of both the transmitter and receiver.
+
+he above image shows, this type of module uses an IR diode as a light source and an IR receiver as a detector. But the working principle is the same as before. The driver
+part (shown below) consists of an op-amp and some components which amplify the detected light signal as shown in fig(overview of Turbidity sensor).
+
+The actual sensor can be connected to this module by using a JST XH connector. It has three pins, VCC, ground, and output. Vcc connects to the 5v and ground to ground. The
+output of this module is an analog value that is it changes according to the light intensity as shown in fig(Turbidity sensor driver).
+
+Specification:
+
+•	Operating Voltage: 5V DC
+•	Operating Current: 40mA (MAX)
+•	Response Time: <500ms
+•	Insulation Resistance: 100M (Min)
+•	Output Method:
+o	Analog output: 0-4.5V
+o	Digital Output: High/Low level signal (you can adjust the threshold value by adjusting the potentiometer)
+•	Operating Temperature: 5℃~90℃
+•	Storage Temperature: -10℃~90℃
+•	Weight: 30g
+•	Adapter Dimensions: 38mm*28mm*10mm/1.5inches *1.1inches*0.4inches
+
+Interface Description:
+
+i.	"D/A" Output Signal Switch
+ii.	"A": Analog Signal Output, the output value will decrease when in liquids with a high turbidity
+iii.	"D": Digital Signal Output, high and low levels, which can be adjusted by the threshold potentiometer
+
+Threshold Potentiometer: you can change the trigger condition by adjusting the threshold potentiometer in digital signal mode.
+
+Relation Between Turbidity and Voltage:
+
+Relationship graph is only applicable if the sensor gives out 4.2 V roughly at zero turbidity (clear water), and it’s only true within the range of 2.5 V to 4.2 V 
+(3,000 to 0 turbidity).
+
+
+
+
