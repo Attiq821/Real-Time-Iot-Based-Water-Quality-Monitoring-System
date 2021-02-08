@@ -1,2 +1,25 @@
 A pH sensor helps to measure the acidity or alkalinity of the water with a value between 0-14. When the pH value dips below seven, the water starts to become more acidic. 
 Any number above seven equates to more alkaline and when the pH is equal to 7 then the solution is neutral.
+
+The standard methodology for measuring pH:
+pH meters consist of a glass electrode made of a specialty glass membrane that is sealed at the end forming a bulb. Inside the glass is an internal standard acidity solution, 
+usually 0.1 M HCl, along with an internal reference electrode, REin (typically an Ag/AgCl wire electrode). This solution is called the reference solution of known pH, 7.
+A second electrode REext is placed in an external tube immersed in KCl. This external tube forms a concentric enclosure around the first enclosed glass tube containing the 0.1 M
+HCl (the internal tube).
+The external tube is made of pH-sensitive glass and is in contact with the test solution through an opening called a porous diaphragm. The inclusion of a reference electrode
+encased by the internal tube is necessary as its pH is known and can be compared to a test solution so that its pH value can be determined. This set-up is called a combination
+pH electrode.
+
+
+Working of PH Sensor:
+The pH meter operates like a voltmeter. The pair of electrodes in the combinatorial set-up can measure small changes in voltage (also called potential difference) in the order
+of millivolts. Changes in potentials are caused by the loss of electrons that correspond with the loss of H+.
+The voltage produced by the test solution is measured and compared with the voltage produced by the reference solution which is exposed to the test solution via the porous
+diaphragm. The difference in the voltage between the two is used to calculate the pH:
+                                                                                    E=E(const)-del.Em
+E(const) refers to the potential difference of the reference electrode and DEm is the change in the potential difference of the external glass membrane caused by the external
+test solution and internal KCl solution. DEm can be calculated using the Nernst Equation.
+
+Calibration:
+The pH meter should be calibrated before each measurement using at least two standard buffer solutions of known pH values (typically around 4 and 7).
+
