@@ -1,0 +1,8 @@
+Links:
+	https://circuitdigest.com/microcontroller-projects/arduino-ph-meter
+	https://www.instructables.com/ARDUINO-PH-METER/
+	https://scidle.com/how-to-use-a-ph-sensor-with-arduino/
+	https://scidle.com/how-to-use-a-ph-sensor-with-arduino/
+	
+Sensor Calibiration
+	https://www.e-tinkers.com/2019/11/measure-ph-with-a-low-cost-arduino-ph-sensor-board/
