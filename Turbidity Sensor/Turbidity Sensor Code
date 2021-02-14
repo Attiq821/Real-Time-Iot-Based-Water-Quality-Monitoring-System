@@ -20,7 +20,7 @@ void loop()
     if(volt < 2.5){                                       // If volt is less than 2.5 then run the block  
       ntu = 3000;                                         // Set the Turbidity value to 3000       
     }else{                                                
-      ntu = -1120.4*square(volt)+5742.3*volt-4353.8;      // If the volt is above 2.5 then calculate the NTU value by using the equation give in the graph 
+      ntu = -1120.4*(volt*volt)+5742.3*volt-4353.8;      // If the volt is above 2.5 then calculate the NTU value by using the equation give in the graph 
     }
     Serial.println("Voltage="+String(volt)+" V --------> Turbidity="+String(ntu)+" NTU");  // Printing results on serial moniter
     delay(1000);                                                                           // Delay of 1 sec      
