@@ -1,0 +1,4 @@
+https://lastminuteengineers.com/ds18b20-arduino-tutorial/
+https://core-electronics.com.au/waterproof-ds18b20-digital-temperature-sensor.html
+https://wiki.dfrobot.com/Waterproof_DS18B20_Digital_Temperature_Sensor__SKU_DFR0198_#top
+https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temperature-sensor-2adecc
